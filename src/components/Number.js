@@ -1,11 +1,14 @@
 
 import React from 'react'
-const Number = ({color,num}) => {
+const Number = (props) => {
     return (
-        <div className={color+" ko"}>
-         <p>{num}</p> 
+        <div className={props.color
+            +" ko"}>
+         <p>{props.num}</p> 
         </div>
     )
 }
 export  {Number}
+
+
 
